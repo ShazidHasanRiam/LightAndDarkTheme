@@ -214,8 +214,9 @@ a:hover {
 
 .toggle-text {
     position: relative;
-    top: -4px;
+    top: 0px;
     right: 5px;
+    left: 5px;
     color: var(--on-background);
     /* margin-right: 50px; */
 }
@@ -272,4 +273,9 @@ input:checked+.slider::before {
 .fas {
     font-size: 30px;
     margin-right: 5px;
+}
+
+.social-icons {
+    margin-top: 50px;
+    text-decoration: none;
 }
